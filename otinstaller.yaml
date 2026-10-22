@@ -20,7 +20,7 @@ outputs:
 runtime:
   kind: docker
   # Filled in by the release workflow with the pushed image's digest.
-  image: ghcr.io/osintverse-community/crt-sh@sha256:0000000000000000000000000000000000000000000000000000000000000000
+  image: ghcr.io/osintverse-community/crt-sh@sha256:0c65c87f49ecf7fe95057e127d34277f837d4970f6755939d887b7571b31873a
   platforms: [linux/amd64, linux/arm64]
   command: ["crt.sh", "-d", "{domain}", "-q"]
   output_format: text
